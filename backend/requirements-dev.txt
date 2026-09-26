@@ -1,0 +1,4 @@
+# 跑测试需要的额外依赖：先装齐运行依赖，再装 pytest 与接口测试用的 httpx。
+-r requirements.txt
+pytest>=8
+httpx>=0.27
